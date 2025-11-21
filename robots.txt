@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /traitement.php
 Disallow: /mentions-legales.html
-Sitemap: https://assainissement-78.com/sitemap.xml
+Sitemap: https://plombier-69.com/sitemap.xml
