@@ -60,3 +60,87 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
     opacity: 0;
     pointer-events: none;
 }
+
+/* FAQ Section */
+.faq-section {
+    max-width: 900px;
+    margin: 10% auto 5%;
+    padding: 0 5%;
+}
+.faq-section h2 {
+    text-align: center;
+    color: #1D2B4A;
+    margin-bottom: 5%;
+    font-size: 32px;
+}
+.faq-item {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+.faq-item label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #1D2B4A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.faq-item label:hover {
+    background-color: #6F90CE;
+}
+.faq-item label::after {
+    content: "+";
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+.faq-item input[type="checkbox"]:checked + label::after {
+    content: "-";
+}
+.faq-item input[type="checkbox"]:checked + label {
+    background-color: #6F90CE;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    background-color: #f9f9f9;
+}
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    max-height: 500px;
+    padding: 20px 25px;
+}
+.faq-answer p {
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #1D2B4A;
+}
+
+@media screen and (max-width: 767.98px) {
+    .faq-section {
+        margin: 15% auto 10%;
+        padding: 0 3%;
+    }
+    .faq-section h2 {
+        font-size: 24px;
+        margin-bottom: 8%;
+    }
+    .faq-item label {
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+    .faq-answer p {
+        font-size: 15px;
+    }
+}
