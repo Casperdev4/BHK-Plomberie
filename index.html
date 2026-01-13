@@ -73,14 +73,12 @@
                 <img src="bhk-logo.webp" alt="entreprise de plomberie 69 Rhône" class="logo" loading="lazy"
                     decoding="async">
             </a>
-            <label for="btn" class="icon">
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="80" height="11"></rect>
-                    <rect y="26" width="80" height="11"></rect>
-                    <rect y="52" width="80" height="11"></rect>
-                </svg>
-            </label>
             <input type="checkbox" id="btn">
+            <label for="btn" class="icon">
+                <span class="burger burger-top"></span>
+                <span class="burger burger-middle"></span>
+                <span class="burger burger-bottom"></span>
+            </label>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="https://plombier-69.com" title="plombier 69">ACCUEIL</a>
@@ -469,15 +467,7 @@
     </footer>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var menuToggle = document.getElementById("btn");
-            var navLinks = document.querySelectorAll(".nav-menu a");
-            navLinks.forEach(function (link) {
-                link.addEventListener("click", function () {
-                    menuToggle.checked = false;
-                });
-            });
-        });
+        document.querySelectorAll(".nav-menu a").forEach(function(a){a.addEventListener("click",function(){document.getElementById("btn").checked=false})});
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
