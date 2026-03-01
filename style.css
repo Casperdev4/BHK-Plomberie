@@ -8,7 +8,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 .histoire h4,.histoire p{color:#fff}
 #devis{background-color:#1D2B4A;padding:2%;width:50%;margin:10% auto}#devis h2,#devis h3,#devis p{color:#fff}#devis p{text-align:left}
 .valeur h3,.valeur h4{margin-bottom:0;color:#fff;text-align:left}.valeur h3,.valeur h4,.valeur p{text-align:left}.valeur{background-color:#1D2B4A;width:100%;margin-left:auto;margin-right:auto;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s}.valeur.slide-in-done{opacity:1;transform:translateX(0)}.valeur .confiance{display:flex;align-items:center;margin-top:5%;margin-left:2%;font-size:35px;text-align:left}.valeur .confiance ion-icon{color:#fff;margin-left:2%;margin-top:2%}.valeur h3{display:flex;align-items:center;font-size:30px}.valeur h4{font-size:20px;margin-top:3%}.valeur p{margin-left:0;color:#fff;font-size:16px;margin-top:0}
-/* ===== NAVBAR DESKTOP & MOBILE ===== */
 *{box-sizing:border-box;outline:0;margin:0;padding:0}
 
 .navbar{
@@ -34,7 +33,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 }
 .logo:hover{transform:scale(1.05)}
 
-/* Burger Menu Icon */
 .icon{
     display:none;
     cursor:pointer;
@@ -59,7 +57,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 .burger-middle{top:16px}
 .burger-bottom{top:24px}
 
-/* Burger to X Animation */
 #btn:checked ~ .icon .burger-top{
     top:16px;
     transform:translateX(-50%) rotate(45deg);
@@ -75,7 +72,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 
 .navbar input{display:none}
 
-/* Desktop Navigation */
 .nav-menu{
     display:flex;
     list-style:none;
@@ -109,7 +105,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 .nav-item a:hover::after{width:60%}
 .nav-item a:hover{color:#6F90CE}
 
-/* Phone Number Button */
 .nav-item:last-child a{
     background:linear-gradient(135deg,#1D2B4A 0%,#6F90CE 100%);
     color:#fff;
@@ -137,7 +132,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .icontient,.nosservices,.partenaires,.realisation{display:none}
 
-/*  Small device */
 @media screen and (max-width:767.98px) {
 
   h1,h2{color:#1D2B4A}h4,p{color:#1D2B4A;text-align:center}h2,h3,h4,p{text-align:center}h1{font-weight:550;font-size:28px;margin-bottom:-2%;margin-top:5%;text-align: left;}h2{margin-top:10%;margin-bottom:10%;font-size:28px;font-weight:530}h3{font-weight:200;font-size:17px;margin:3% 3% 7%}h4{margin:5% 3%;font-size:20px;font-weight:350}p{font-size:19px;margin-left:5%;margin-right:5%;padding:2%}
@@ -145,7 +139,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
   #devis p,.histoire p,.valeur p{color:#fff;font-size:17px}
   body{margin-top:18%}
 
-  /* ===== NAVBAR MOBILE ===== */
   .navbar{
       padding:12px 15px;
       box-shadow:0 2px 15px rgba(29,43,74,0.15);
@@ -173,7 +166,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
   #btn:checked ~ .icon .burger-top{top:18px}
   #btn:checked ~ .icon .burger-bottom{top:18px}
 
-  /* Mobile Menu */
   .nav-menu{
       position:fixed;
       top:0;
@@ -273,7 +265,6 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #1D2
     pointer-events: none;
 }
 
-/* FAQ Section */
 .faq-section {
     max-width: 900px;
     margin: 10% auto 5%;
