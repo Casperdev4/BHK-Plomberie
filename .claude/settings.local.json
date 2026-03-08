@@ -19,7 +19,8 @@
       "Bash(while read f)",
       "Bash(do sed -i 's/plombier-69\\\\.com/bhk-plombier-69.fr/g' \"$f\")",
       "Bash(do sed -i 's/bhk-plomberie-69\\\\.html/bhk-plombier-69.html/g' \"$f\")",
-      "Bash(do sed -i 's/prix-bhk-plomberie-69\\\\.html/prix-plomberie-69-rhone.html/g' \"$f\")"
+      "Bash(do sed -i 's/prix-bhk-plomberie-69\\\\.html/prix-plomberie-69-rhone.html/g' \"$f\")",
+      "Bash(do sed -i 's/bhk-plombier-69\\\\.html/bhk-plomberie-69.html/g' \"$f\")"
     ]
   }
 }
