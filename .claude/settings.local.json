@@ -11,10 +11,13 @@
       "Bash(powershell:*)",
       "Bash(cat:*)",
       "Bash(for file in plombier-lyon.html plombier-meyzieu.html plombier-bron.html plombier-villeurbanne.html plombier-venissieux.html plombier-vaulx-en-velin.html plombier-saint-priest.html plombier-chassieu.html plombier-genas.html plombier-decines-charpieu.html plombier-rillieux-la-pape.html plombier-mions.html plombier-jonage.html plombier-jons.html plombier-pusignan.html plombier-colombier-saugnieu.html plombier-saint-bonnet-de-mure.html plombier-saint-laurent-de-mure.html plombier-saint-pierre-de-chandieu.html plombier-toussieu.html)",
-      "Bash(do sed -i \"s|\"\"url\"\": \"\"https://plombier-69.com/\"\"|\"\"url\"\": \"\"https://plombier-69.com/$file\"\"|\" \"$file\")",
+      "Bash(do sed -i \"s|\"\"url\"\": \"\"https://bhk-plombier-69.fr/\"\"|\"\"url\"\": \"\"https://bhk-plombier-69.fr/$file\"\"|\" \"$file\")",
       "Bash(done)",
       "Bash(python3:*)",
-      "Bash(/c/WINDOWS/py:*)"
+      "Bash(/c/WINDOWS/py:*)",
+      "Bash(wc:*)",
+      "Bash(while read f)",
+      "Bash(do sed -i 's/plombier-69\\\\.com/bhk-plombier-69.fr/g' \"$f\")"
     ]
   }
 }
